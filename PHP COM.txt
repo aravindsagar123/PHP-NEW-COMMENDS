@@ -1,0 +1,16 @@
+<?php
+$a=1;
+$b=2;
+echo "multi-".$a*$b."<br>"."add-".$a+$b."<br>";
+echo "sub-".$a-$b."<br>"."div-".$a/$b."<br>";
+echo strlen ("hello iam aravind")."<br>";
+echo str_word_count ("iam an engineer")."<br>";
+ echo strrev("ilove machines ")."<br>";
+echo str_replace("world","dolly","hello world")."<br>";
+echo strtolower("HELLO")."<br>";
+ echo strtoupper("hello")."<br>";
+echo substr_compare("iam a human","iam a human",0)."<br>";
+$str="hello world!" ;
+echo "with trim:".trim($str);
+
+?>
